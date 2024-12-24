@@ -1,0 +1,115 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: url('../images/ImagenLogin.png') no-repeat center center fixed;
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del encabezado */
+header {
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    backdrop-filter: blur(10px); /* Efecto de desenfoque en el fondo */
+}
+
+/* Enlace para salir */
+.logout-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #007aff; /* Azul de iOS */
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.logout-link:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Estilo del foro */
+.forum {
+    margin-top: 20px;
+}
+
+/* Estilo de cada post en el foro */
+.post {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Estilo del título del post */
+.post h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Estilo del contenido del post */
+.post p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Estilo de la imagen del post */
+.post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* Sección de contacto */
+.contact {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de la lista de contacto */
+.contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo de cada elemento de contacto */
+.contact li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Enlaces dentro del contacto */
+.contact a {
+    color: #007aff; /* Azul de iOS */
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}

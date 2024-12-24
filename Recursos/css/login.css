@@ -1,0 +1,82 @@
+/* Estilos para la página de login */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: url('../images/ImagenLogin.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5); /* Alta transparencia en el fondo del contenedor */
+    padding: 40px;
+    border-radius: 20px; /* Bordes redondeados para un look suave */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+    text-align: center;
+    width: 360px; /* Ancho ajustado para un diseño equilibrado */
+    max-width: 100%; /* Adaptable a diferentes tamaños de pantalla */
+    box-sizing: border-box; /* Incluye padding y borde en el ancho */
+    backdrop-filter: blur(15px); /* Desenfoque del fondo detrás del contenedor */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 24px); /* Ajusta el ancho para padding */
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Color de borde suave */
+    border-radius: 15px; /* Bordes redondeados */
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8); /* Mayor transparencia en los campos de texto */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra interior sutil */
+    box-sizing: border-box; /* Incluye padding y borde en el ancho */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007aff; /* Azul iOS para el borde */
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 122, 255, 0.3); /* Sombra de enfoque */
+}
+
+button {
+    background-color: #007aff; /* Azul iOS para el botón */
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 15px;
+    cursor: pointer;
+    width: calc(100% - 24px); /* Ajusta el ancho para padding */
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box; /* Incluye padding y borde en el ancho */
+}
+
+button:hover {
+    background-color: #005bb5; /* Azul oscuro para el hover */
+}
+
+p {
+    margin-top: 15px;
+    color: red;
+    font-size: 14px;
+}

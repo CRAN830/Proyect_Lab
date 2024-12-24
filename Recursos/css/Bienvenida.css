@@ -1,0 +1,61 @@
+/* Estilos para la página */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: url('../images/ImagenLogin.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4); /* Fondo blanco con 40% de opacidad */
+    padding: 40px;
+    border-radius: 20px; /* Bordes redondeados más pronunciados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+    backdrop-filter: blur(20px); /* Aumentar el desenfoque para un efecto de vidrio esmerilado */
+    -webkit-backdrop-filter: blur(20px); /* Compatibilidad con Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Borde más sutil */
+}
+/* Título */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Contenedor de botones */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; /* Espaciado entre los botones */
+}
+
+/* Estilos para los botones */
+.button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px; /* Bordes redondeados más pronunciados */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo semi-transparente */
+}
+
+.button:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+/* Botones específicos */
+.admin {
+    background-color: #4CAF50; /* Verde para Administrador */
+}
+
+.cliente {
+    background-color: #008CBA; /* Azul para Cliente */
+}
